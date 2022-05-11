@@ -5,7 +5,6 @@ import org.springframework.stereotype.Service;
 import java.io.IOException;
 import java.net.URL;
 import java.net.URLConnection;
-import java.text.DateFormat;
 
 @Service
 public class RequestProvider {
