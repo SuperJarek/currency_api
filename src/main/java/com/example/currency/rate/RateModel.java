@@ -1,8 +1,7 @@
 package com.example.currency.rate;
 
-import com.example.currency.FrankfurterApi.FrankfurterRate;
+import com.example.currency.frankfurterApi.FrankfurterRate;
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.Column;

@@ -1,13 +1,12 @@
 package com.example.currency.rate;
 
-import com.example.currency.FrankfurterApi.FrankfurterApi;
-import com.example.currency.FrankfurterApi.FrankfurterResponse;
+import com.example.currency.frankfurterApi.FrankfurterApi;
+import com.example.currency.frankfurterApi.FrankfurterResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.io.IOException;
 import java.util.Date;
-import java.util.List;
 
 @Service
 public class RateService {

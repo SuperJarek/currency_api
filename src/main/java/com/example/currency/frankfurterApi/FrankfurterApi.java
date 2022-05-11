@@ -1,16 +1,13 @@
-package com.example.currency.FrankfurterApi;
+package com.example.currency.frankfurterApi;
 
 import com.example.currency.commons.DateFormatProvider;
 import com.example.currency.commons.ObjectMapperProvider;
 import com.example.currency.commons.RequestProvider;
-import com.fasterxml.jackson.databind.DeserializationFeature;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.io.InputStreamReader;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLConnection;

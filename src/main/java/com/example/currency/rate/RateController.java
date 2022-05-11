@@ -1,14 +1,11 @@
 package com.example.currency.rate;
 
-import com.example.currency.FrankfurterApi.FrankfurterApi;
 import com.example.currency.commons.DateFormatProvider;
-import com.example.currency.request.RequestModel;
 import com.example.currency.request.RequestService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.text.ParseException;
-import java.text.SimpleDateFormat;
 import java.util.Date;
 
 @RestController
